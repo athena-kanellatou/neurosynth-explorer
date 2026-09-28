@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-09-28T17:14:29.478991+00:00",
+  "neurosynth_release": "v0.7 (July 2018)",
+  "neurosynth_metadata_url": "https://raw.githubusercontent.com/neurosynth/neurosynth-data/master/data-neurosynth_version-7_metadata.tsv.gz",
+  "neurosynth_metadata_sha256": "8acde7de2a14ee2a12b406e50a8805e83288b0bc78924ddb36879d496dfb757b",
+  "neurosynth_corpus_pmids": 14371,
+  "neuroquery_model_source": "https://osf.io/598tj/download",
+  "neuroquery_corpus_metadata_sha256": "67ecd2f7a18e6fccbb22c991e4ce039ac19cf8a85142b811a16664a7e2c2f0e1",
+  "neuroquery_model_corpus_pmids": 13459,
+  "candidate_records": 731,
+  "with_pmid": 518,
+  "neurosynth_matches": 1,
+  "neuroquery_matches": 0,
+  "without_pmid": 213,
+  "possible_source_title_matches": 6,
+  "source_overlaps": [
+    {
+      "record_key": "29428771",
+      "pmid": "29428771",
+      "doi": "10.1016/j.neuropsychologia.2018.02.002",
+      "title": "Distinct neural engagement during implicit and explicit regulation of negative stimuli.",
+      "neurosynth_full_corpus_match": 1,
+      "neuroquery_model_corpus_match": 0
+    }
+  ],
+  "sha256_csv": "a2f118b79b91603d03408922c0930d958d433e702a01659743a4f0b6028f2190",
+  "caveat": "PMID absence does not rule out duplicate cohort or metadata mismatch; no article eligibility screening."
+}

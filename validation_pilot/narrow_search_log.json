@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-28",
+  "status": "Pilot export; no eligibility screening or independent validation yet",
+  "queries": {
+    "cognitive_reappraisal": {
+      "query": "(\"cognitive reappraisal\"[tiab] OR \"emotion reappraisal\"[tiab]) AND (fMRI[tiab] OR \"functional magnetic resonance imaging\"[tiab]) AND (2019/01/01:2026/09/28[dp])",
+      "count": 135,
+      "retrieved": 135,
+      "sort": "relevance"
+    },
+    "monetary_reward": {
+      "query": "(\"monetary incentive delay\"[tiab] OR \"monetary reward\"[tiab]) AND (fMRI[tiab] OR \"functional magnetic resonance imaging\"[tiab]) AND (2019/01/01:2026/09/28[dp])",
+      "count": 372,
+      "retrieved": 372,
+      "sort": "relevance"
+    }
+  },
+  "unique_pmids": 507,
+  "overlap_between_search_arms": 0
+}

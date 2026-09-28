@@ -1,0 +1,41 @@
+{
+  "retrieved_utc": "2026-09-28T16:41:14.605325+00:00",
+  "database": "OpenAlex",
+  "status": "One relevance-ranked page per query only; incomplete feasibility pilot, not screening",
+  "search_scope": "OpenAlex search may search full text in addition to title and abstract",
+  "filter": "from_publication_date:2019-01-01,to_publication_date:2026-09-28",
+  "page_size": 200,
+  "searches": {
+    "cognitive_reappraisal": {
+      "query": "\"cognitive reappraisal\" fMRI",
+      "request_url": "https://api.openalex.org/works?search=%22cognitive+reappraisal%22+fMRI&filter=from_publication_date%3A2019-01-01%2Cto_publication_date%3A2026-09-28&per_page=200&page=1&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cids%2Ctype",
+      "reported_count": 4016,
+      "retrieved_count": 200,
+      "complete": false
+    },
+    "emotion_reappraisal": {
+      "query": "\"emotion reappraisal\" fMRI",
+      "request_url": "https://api.openalex.org/works?search=%22emotion+reappraisal%22+fMRI&filter=from_publication_date%3A2019-01-01%2Cto_publication_date%3A2026-09-28&per_page=200&page=1&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cids%2Ctype",
+      "reported_count": 182,
+      "retrieved_count": 182,
+      "complete": true
+    },
+    "monetary_incentive_delay": {
+      "query": "\"monetary incentive delay\" fMRI",
+      "request_url": "https://api.openalex.org/works?search=%22monetary+incentive+delay%22+fMRI&filter=from_publication_date%3A2019-01-01%2Cto_publication_date%3A2026-09-28&per_page=200&page=1&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cids%2Ctype",
+      "reported_count": 1700,
+      "retrieved_count": 200,
+      "complete": false
+    },
+    "monetary_reward": {
+      "query": "\"monetary reward\" fMRI",
+      "request_url": "https://api.openalex.org/works?search=%22monetary+reward%22+fMRI&filter=from_publication_date%3A2019-01-01%2Cto_publication_date%3A2026-09-28&per_page=200&page=1&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cids%2Ctype",
+      "reported_count": 3498,
+      "retrieved_count": 200,
+      "complete": false
+    }
+  },
+  "unique_exported_records": 715,
+  "matched_to_pubmed_pilot_by_pmid_or_doi": 243,
+  "warning": "These are only first-page results, with search semantics different from PubMed. Counts and matches do not support a PRISMA flow or eligibility claims."
+}

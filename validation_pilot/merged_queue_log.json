@@ -1,0 +1,23 @@
+{
+  "source_pubmed_records": 507,
+  "source_openalex_ids": 640,
+  "merged_identifier_groups": 731,
+  "both_sources": 414,
+  "pubmed_only": 93,
+  "openalex_only": 224,
+  "neurosynth_three_term_map_matches": [
+    {
+      "record_key": "29428771",
+      "pmid": "29428771",
+      "doi": "10.1016/j.neuropsychologia.2018.02.002",
+      "title": "Distinct neural engagement during implicit and explicit regulation of negative stimuli.",
+      "neurosynth_term_map_ids": "emotion_regulation"
+    }
+  ],
+  "full_neurosynth_corpus_membership": "UNVERIFIED",
+  "neuroquery_corpus_membership": "UNVERIFIED",
+  "bibliographic_duplicate_review": "PENDING",
+  "cohort_duplicate_review": "PENDING",
+  "screening": "NOT STARTED",
+  "sha256_csv": "c967187502d684ae2997e1281934c7075aad734eb86795de67f29d7914e5b394"
+}

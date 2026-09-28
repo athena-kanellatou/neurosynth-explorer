@@ -1,0 +1,118 @@
+{
+  "retrieved_utc": "2026-09-28T16:59:55.282861+00:00",
+  "database": "OpenAlex",
+  "status": "Complete for these title/abstract queries; not screened or protocol-frozen",
+  "date_start": "2019-01-01",
+  "date_end": "2026-09-28",
+  "search_field": "title_and_abstract.search",
+  "query_interface": "OpenAlex OQO POST /",
+  "page_size": 200,
+  "arms": {
+    "reappraisal": {
+      "query": "(\"cognitive reappraisal\" OR \"emotion reappraisal\") AND (fMRI OR \"functional magnetic resonance imaging\")",
+      "count": 183,
+      "pages": 1,
+      "exported": 183,
+      "body_page_1": {
+        "oqo": {
+          "get_rows": "works",
+          "filter_rows": [
+            {
+              "column_id": "title_and_abstract.search",
+              "operator": "has",
+              "value": "(\"cognitive reappraisal\" OR \"emotion reappraisal\") AND (fMRI OR \"functional magnetic resonance imaging\")"
+            },
+            {
+              "column_id": "from_publication_date",
+              "value": "2019-01-01"
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2026-09-28"
+            }
+          ]
+        },
+        "per_page": 200,
+        "page": 1,
+        "select": "id,doi,display_name,publication_date,ids,type"
+      },
+      "server_query_1": {
+        "oql": "works where title/abstract has (cognitive reappraisal \"OR\" emotion reappraisal \"AND\" fMRI \"OR\" functional magnetic resonance imaging)\n  and date >= (2019-01-01)\n  and date <= (2026-09-28)",
+        "oqo": {
+          "get_rows": "works",
+          "filter_rows": [
+            {
+              "column_id": "title_and_abstract.search",
+              "value": "(\"cognitive reappraisal\" OR \"emotion reappraisal\") AND (fMRI OR \"functional magnetic resonance imaging\")",
+              "operator": "has"
+            },
+            {
+              "column_id": "from_publication_date",
+              "value": "2019-01-01"
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2026-09-28"
+            }
+          ]
+        },
+        "url": "/works?filter=title_and_abstract.search:%28%22cognitive reappraisal%22 OR %22emotion reappraisal%22%29 AND %28fMRI OR %22functional magnetic resonance imaging%22%29,from_publication_date:2019-01-01,to_publication_date:2026-09-28&per_page=200&page=1"
+      }
+    },
+    "monetary_reward": {
+      "query": "(\"monetary incentive delay\" OR \"monetary reward\") AND (fMRI OR \"functional magnetic resonance imaging\")",
+      "count": 457,
+      "pages": 3,
+      "exported": 457,
+      "body_page_1": {
+        "oqo": {
+          "get_rows": "works",
+          "filter_rows": [
+            {
+              "column_id": "title_and_abstract.search",
+              "operator": "has",
+              "value": "(\"monetary incentive delay\" OR \"monetary reward\") AND (fMRI OR \"functional magnetic resonance imaging\")"
+            },
+            {
+              "column_id": "from_publication_date",
+              "value": "2019-01-01"
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2026-09-28"
+            }
+          ]
+        },
+        "per_page": 200,
+        "page": 1,
+        "select": "id,doi,display_name,publication_date,ids,type"
+      },
+      "server_query_1": {
+        "oql": "works where title/abstract has (monetary incentive delay \"OR\" monetary reward \"AND\" fMRI \"OR\" functional magnetic resonance imaging)\n  and date >= (2019-01-01)\n  and date <= (2026-09-28)",
+        "oqo": {
+          "get_rows": "works",
+          "filter_rows": [
+            {
+              "column_id": "title_and_abstract.search",
+              "value": "(\"monetary incentive delay\" OR \"monetary reward\") AND (fMRI OR \"functional magnetic resonance imaging\")",
+              "operator": "has"
+            },
+            {
+              "column_id": "from_publication_date",
+              "value": "2019-01-01"
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2026-09-28"
+            }
+          ]
+        },
+        "url": "/works?filter=title_and_abstract.search:%28%22monetary incentive delay%22 OR %22monetary reward%22%29 AND %28fMRI OR %22functional magnetic resonance imaging%22%29,from_publication_date:2019-01-01,to_publication_date:2026-09-28&per_page=200&page=1"
+      }
+    }
+  },
+  "unique_openalex_ids": 640,
+  "openalex_ids_linked_to_pubmed": 416,
+  "sha256_csv": "f15067e3bb5ef06f3e11b67a6f6b99da232ee24599a12bb58d1cd13dd4cba5cb",
+  "caveat": "Search indexing, field contents and document sets differ from PubMed; title/abstract field restriction does not guarantee identical retrieval."
+}

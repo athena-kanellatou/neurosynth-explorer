@@ -1,0 +1,21 @@
+{
+  "scope": "Identifier linkage between two pilot search exports, not eligibility or database recall",
+  "pubmed_pilot_records": 507,
+  "openalex_unique_ids": 8354,
+  "pubmed_records_with_at_least_one_openalex_id": 422,
+  "pubmed_records_without_identifier_match": 85,
+  "openalex_ids_linked_to_pubmed": 424,
+  "pubmed_pmids_with_multiple_openalex_ids": {
+    "38692711": [
+      "https://openalex.org/W38692711",
+      "https://openalex.org/W4396658640"
+    ],
+    "34144217": [
+      "https://openalex.org/W3166612600",
+      "https://openalex.org/W4229050698"
+    ]
+  },
+  "unmatched_pubmed_reappraisal": 25,
+  "unmatched_pubmed_monetary_reward": 60,
+  "warning": "No match under these exact queries does not mean absent from OpenAlex; identifiers or indexing may differ."
+}

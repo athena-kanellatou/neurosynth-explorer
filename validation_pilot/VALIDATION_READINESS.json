@@ -1,0 +1,20 @@
+{
+  "status": "BLOCKED",
+  "candidate_records": 731,
+  "unscreened": 731,
+  "corpus_matches_by_id": 1,
+  "possible_source_title_matches": 5,
+  "without_pmid": 213,
+  "experiment_counts": {
+    "reappraisal": 0,
+    "monetary_reward": 0
+  },
+  "blocking_reasons": [
+    "No verified coordinate extraction file exists",
+    "Candidate queue still contains unscreened records",
+    "Some candidate records have unresolved source-corpus identity",
+    "reappraisal: 0 extracted experiments, minimum 17",
+    "monetary_reward: 0 extracted experiments, minimum 17"
+  ],
+  "statement": "No ALE or independent validation result has been produced."
+}

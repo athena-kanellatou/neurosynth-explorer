@@ -1,0 +1,47 @@
+{
+  "scope": "First page per OpenAlex query only; title string audit is not eligibility screening",
+  "unique_records": 715,
+  "with_doi": 711,
+  "with_pmid": 608,
+  "without_doi_or_pmid": 4,
+  "matched_to_pubmed_pilot": 243,
+  "openalex_types": {
+    "article": 590,
+    "book": 1,
+    "book-chapter": 4,
+    "conference-paper": 1,
+    "data-paper": 3,
+    "dissertation": 12,
+    "editorial": 3,
+    "erratum": 1,
+    "peer-review": 1,
+    "preprint": 51,
+    "review": 48
+  },
+  "arms": {
+    "cognitive_reappraisal": {
+      "exported_records": 200,
+      "title_contains_exact_phrase": 85,
+      "title_mentions_fmri_or_full_name": 55,
+      "matched_to_pubmed_pilot": 62
+    },
+    "emotion_reappraisal": {
+      "exported_records": 182,
+      "title_contains_exact_phrase": 3,
+      "title_mentions_fmri_or_full_name": 13,
+      "matched_to_pubmed_pilot": 17
+    },
+    "monetary_incentive_delay": {
+      "exported_records": 200,
+      "title_contains_exact_phrase": 23,
+      "title_mentions_fmri_or_full_name": 48,
+      "matched_to_pubmed_pilot": 121
+    },
+    "monetary_reward": {
+      "exported_records": 200,
+      "title_contains_exact_phrase": 39,
+      "title_mentions_fmri_or_full_name": 68,
+      "matched_to_pubmed_pilot": 76
+    }
+  }
+}
