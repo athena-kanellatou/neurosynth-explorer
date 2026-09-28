@@ -82,7 +82,7 @@ Run `python verify_reproduction.py` after the base requirements are installed. I
 
 ## Step 11: clean-package verification and future changes
 
-The project includes `.github/workflows/reproduce.yml`, which runs the unit checks and offline data audit on pushes and pull requests after you place the folder contents in a GitHub repository. `.gitignore` excludes downloaded model and atlas caches. Read `DATA_SOURCES.md` before republishing source maps or model outputs. The project is not automatically published.
+The project includes `.github/workflows/reproduce.yml`, which runs unit checks and the offline data audit on pushes and pull requests. `.gitignore` excludes downloaded model and atlas caches. Read `DATA_SOURCES.md` before republishing source maps or model outputs.
 
 ## Step 12: guided notebook
 
