@@ -1,0 +1,116 @@
+{
+  "pretrained_model_url": "https://osf.io/598tj/download",
+  "package_version_used": "neuroquery 1.1.0",
+  "model": "neuroquery_model",
+  "map_type": "brain_map (model prediction, not Neurosynth association-test z)",
+  "maps": {
+    "emotion regulation": {
+      "query": "emotion regulation",
+      "path": "neuroquery_maps/emotion_regulation.nii.gz",
+      "sha256": "b4977cfa7f2fe893f4a3cc3d02855ee03fd74f9e6e600234f4fa738d55d537e6",
+      "shape": [
+        46,
+        55,
+        46
+      ],
+      "affine": [
+        [
+          4.0,
+          0.0,
+          0.0,
+          -90.0
+        ],
+        [
+          0.0,
+          4.0,
+          0.0,
+          -126.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.0,
+          -72.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "reward": {
+      "query": "reward",
+      "path": "neuroquery_maps/reward.nii.gz",
+      "sha256": "195fb6532a808148428e8118777ee1d56bdceda51a104f832da2415972a99342",
+      "shape": [
+        46,
+        55,
+        46
+      ],
+      "affine": [
+        [
+          4.0,
+          0.0,
+          0.0,
+          -90.0
+        ],
+        [
+          0.0,
+          4.0,
+          0.0,
+          -126.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.0,
+          -72.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "depression": {
+      "query": "depression",
+      "path": "neuroquery_maps/depression.nii.gz",
+      "sha256": "8a1bf51b433ef123f7e6c0b205455424306f0844184c486d73a805b1728db1dc",
+      "shape": [
+        46,
+        55,
+        46
+      ],
+      "affine": [
+        [
+          4.0,
+          0.0,
+          0.0,
+          -90.0
+        ],
+        [
+          0.0,
+          4.0,
+          0.0,
+          -126.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.0,
+          -72.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  }
+}

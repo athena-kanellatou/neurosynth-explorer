@@ -1,0 +1,9 @@
+z3_component_rank,z3_voxels,threshold_z,reference_voxels_retained,retained_fraction,largest_connected_remnant
+1,395,2,395,1.0,395
+1,395,3,395,1.0,395
+1,395,4,190,0.481,185
+1,395,5,88,0.223,87
+2,296,2,296,1.0,296
+2,296,3,296,1.0,296
+2,296,4,151,0.51,147
+2,296,5,76,0.257,75

@@ -1,0 +1,4 @@
+term,common_nonzero_voxels,spearman_rho,top_5pct_shared_voxels,top_5pct_jaccard,ns_cutoff,nq_cutoff
+emotion_regulation,28542,0.2719,319,0.1257,2.442,3.832
+reward,28542,0.5017,802,0.3905,3.588,2.531
+depression,28542,0.3994,295,0.115,1.503,4.649

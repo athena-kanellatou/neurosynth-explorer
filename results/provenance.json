@@ -1,0 +1,124 @@
+{
+  "retrieved_utc": "2026-09-28",
+  "analysis_utc": "2026-09-28T15:48:32.246500+00:00",
+  "source": "Neurosynth association-test z maps via ?unthresholded endpoint",
+  "inputs": {
+    "emotion_regulation": {
+      "url": "https://neurosynth.org/api/analyses/498/images/association?unthresholded",
+      "sha256": "cabfd26c623af4a653052af8e05876efdf186078e17de1383a9647a083b03ad4",
+      "shape": [
+        91,
+        109,
+        91
+      ],
+      "affine": [
+        [
+          -2.0,
+          0.0,
+          0.0,
+          90.0
+        ],
+        [
+          0.0,
+          2.0,
+          0.0,
+          -126.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.0,
+          -72.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "studies_on_term_page": 247
+    },
+    "reward": {
+      "url": "https://neurosynth.org/api/analyses/46/images/association?unthresholded",
+      "sha256": "31a2e9c1117db6bde2e6a74f340a1768667f167e7e7e09fe20e3f2213150970e",
+      "shape": [
+        91,
+        109,
+        91
+      ],
+      "affine": [
+        [
+          -2.0,
+          0.0,
+          0.0,
+          90.0
+        ],
+        [
+          0.0,
+          2.0,
+          0.0,
+          -126.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.0,
+          -72.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "studies_on_term_page": 922
+    },
+    "depression": {
+      "url": "https://neurosynth.org/api/analyses/772/images/association?unthresholded",
+      "sha256": "b6ca640cdb45a4455eef4beb354b241925ebf8cee825ad5d87ac5abbc72d08ff",
+      "shape": [
+        91,
+        109,
+        91
+      ],
+      "affine": [
+        [
+          -2.0,
+          0.0,
+          0.0,
+          90.0
+        ],
+        [
+          0.0,
+          2.0,
+          0.0,
+          -126.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.0,
+          -72.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "studies_on_term_page": 502
+    }
+  },
+  "thresholds": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "mask": "pairwise finite voxels, positive z only",
+  "resampling": "none",
+  "caveat": "Descriptive overlap; z cutoff is not a claim of corrected inference."
+}

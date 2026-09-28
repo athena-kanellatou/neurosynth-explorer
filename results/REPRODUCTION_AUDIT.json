@@ -1,0 +1,382 @@
+{
+  "checks": [
+    {
+      "check": "Neurosynth emotion_regulation SHA-256",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Neurosynth emotion_regulation geometry",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Neurosynth reward SHA-256",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Neurosynth reward geometry",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Neurosynth depression SHA-256",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Neurosynth depression geometry",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "NeuroQuery emotion_regulation SHA-256",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "NeuroQuery emotion_regulation geometry",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "NeuroQuery reward SHA-256",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "NeuroQuery reward geometry",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "NeuroQuery depression SHA-256",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "NeuroQuery depression geometry",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=2.0 a_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=2.0 b_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=2.0 shared_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=2.0 jaccard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=2.0 dice",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=3.0 a_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=3.0 b_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=3.0 shared_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=3.0 jaccard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=3.0 dice",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=4.0 a_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=4.0 b_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=4.0 shared_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=4.0 jaccard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=4.0 dice",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=5.0 a_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=5.0 b_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=5.0 shared_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=5.0 jaccard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward z=5.0 dice",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=2.0 a_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=2.0 b_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=2.0 shared_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=2.0 jaccard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=2.0 dice",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=3.0 a_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=3.0 b_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=3.0 shared_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=3.0 jaccard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=3.0 dice",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=4.0 a_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=4.0 b_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=4.0 shared_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=4.0 jaccard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=4.0 dice",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=5.0 a_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=5.0 b_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=5.0 shared_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=5.0 jaccard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression z=5.0 dice",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=2.0 a_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=2.0 b_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=2.0 shared_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=2.0 jaccard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=2.0 dice",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=3.0 a_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=3.0 b_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=3.0 shared_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=3.0 jaccard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=3.0 dice",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=4.0 a_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=4.0 b_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=4.0 shared_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=4.0 jaccard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=4.0 dice",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=5.0 a_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=5.0 b_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=5.0 shared_voxels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=5.0 jaccard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression z=5.0 dice",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x reward shared study IDs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "emotion_regulation x depression shared study IDs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reward x depression shared study IDs",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "passed": 75,
+  "failed": 0,
+  "scope": "Offline integrity and numerical checks. Atlas labels need the AAL source; NeuroQuery maps need the pretrained model to regenerate from text."
+}

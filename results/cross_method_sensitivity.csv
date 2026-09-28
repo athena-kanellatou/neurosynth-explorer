@@ -1,0 +1,10 @@
+term,top_percent,common_voxels,shared_top_voxels,jaccard,spearman_rho
+emotion_regulation,1,28542,112,0.2435,0.2719
+emotion_regulation,5,28542,319,0.1257,0.2719
+emotion_regulation,10,28542,770,0.1558,0.2719
+reward,1,28542,202,0.5459,0.5017
+reward,5,28542,802,0.3905,0.5017
+reward,10,28542,1627,0.3985,0.5017
+depression,1,28542,19,0.0344,0.3994
+depression,5,28542,295,0.115,0.3994
+depression,10,28542,726,0.1457,0.3994
