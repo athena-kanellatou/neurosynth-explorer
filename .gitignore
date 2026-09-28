@@ -1,0 +1,9 @@
+.venv/
+.venv*/
+__pycache__/
+*.pyc
+atlas_cache/
+neuroquery_cache/
+.streamlit/
+validation_pilot/openalex_pages/
+tmp/
